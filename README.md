@@ -1,86 +1,150 @@
-# 🏥 Medicare - Premium Hospital Management System
+<div align="center">
 
-**Developed by:** Muhammad Rashid Shafique
+# 🏥 Medicare
+**Premium Hospital Management System**
 
-**Medicare** is a comprehensive, modern desktop application designed to streamline hospital operations. Built with **Python** and **PySide6**, it offers a premium user interface for managing patients, doctors, inventory, and billing with efficiency and style.
+[![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![PySide6](https://img.shields.io/badge/PySide6-GUI-green.svg?style=for-the-badge&logo=qt)](https://doc.qt.io/qtforpython/)
+[![SQLite](https://img.shields.io/badge/SQLite-Database-lightgrey.svg?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+*A comprehensive, modern desktop application designed to streamline hospital operations with efficiency and style.*
+
+[Explore Features](#-key-features) · [View Screenshots](#-application-screenshots) · [Report Bug](#-contact--author) · [Request Feature](#-contact--author)
+
+</div>
+
+<br />
+
+## 📖 About the Project
+
+**Medicare** is a robust and highly scalable desktop application tailored for the dynamic needs of modern hospitals and clinics. Built entirely on **Python** and **PySide6**, it brings a premium, visually appealing, and intuitive user interface to healthcare management. From real-time analytics to automated billing, Medicare ensures that medical staff can focus more on patient care rather than administrative overhead.
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
-* **📊 Interactive Dashboard:** Real-time analytics for total patients, revenue, visits, and low stock alerts.
-* **👨‍⚕️ Doctor Management:** detailed profiles, specialization, fees, and scheduling.
-* **🏥 OPD & IPD Management:** Seamless patient registration for Outpatient and Inpatient departments, including ward/bed management.
-* **📅 Appointment Scheduling:** Track patient appointments with status updates (Pending/Confirmed).
-* **💊 Pharmacy & Inventory:** Live tracking of medicine stock, expiry dates, and supplier details.
-* **💰 Smart Billing:** Automated invoice generation with payment tracking (Paid/Pending).
-* **🔐 Secure Authentication:** Role-based login system for administrators and staff.
+| Category | Features |
+| :--- | :--- |
+| **📊 Interactive Dashboard** | Real-time analytics, total patients, revenue tracking, visits, and low stock alerts. |
+| **👨‍⚕️ Doctor Management** | Detailed profiles, specialization categorization, consultation fees, and scheduling. |
+| **🏥 OPD & IPD Management** | Seamless patient registration for Outpatient/Inpatient departments, ward & bed allocation. |
+| **📅 Appointment Scheduling** | Track and organize patient consultations with live status updates (Pending/Confirmed). |
+| **💊 Pharmacy & Inventory** | Live tracking of medicine stock, expiry dates, supplier details, and shortage prevention. |
+| **💰 Smart Billing** | Automated, comprehensive invoice generation with real-time payment tracking (Paid/Pending). |
+| **🔐 Secure Authentication** | Robust role-based login system for administrators and staff ensuring data privacy. |
 
 ---
 
 ## 📸 Application Screenshots
 
-### 1. Secure Login
-A secure entry point for authorized personnel.
-![Login Screen](image_a55c36.png)
-
-### 2. Main Dashboard
-A high-level overview of hospital performance, financial stats, and patient trends.
-![Dashboard Overview](image_a557f9.png)
-
-### 3. Doctor Management
-Manage staff profiles, consultation fees, and specializations.
-![Registered Doctors](image_a55459.png)
-
-### 4. OPD Registration (Patient Records)
-Efficiently register new patients and search existing records with advanced filtering.
-![OPD Registration](image_a557a4.png)
-
-### 5. Appointment Scheduling
-Track and manage patient consultations and doctor availability.
-![Scheduled Appointments](image_a5547c.png)
-
-### 6. IPD / Ward Management
-Manage patient admissions, discharges, and bed allocations in Emergency or ICU wards.
-![IPD Wards](image_a5541b.png)
-
-### 7. Pharmacy & Inventory
-Monitor medicine stock levels, pricing, and batch details to prevent shortages.
-![Pharmacy Management](image_a554f6.jpg)
-
-### 8. Billing & Invoices
-Generate comprehensive bills and track payment statuses.
-![Generated Bills](image_a554b9.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="image_a55c36.png" alt="Login Screen" width="400"/><br/>
+        <b>🔒 Secure Login</b><br/><i>A secure entry point for authorized personnel.</i>
+      </td>
+      <td align="center">
+        <img src="image_a557f9.png" alt="Dashboard Overview" width="400"/><br/>
+        <b>📊 Main Dashboard</b><br/><i>A high-level overview of hospital performance.</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image_a55459.png" alt="Registered Doctors" width="400"/><br/>
+        <b>👨‍⚕️ Doctor Management</b><br/><i>Manage staff profiles and specializations.</i>
+      </td>
+      <td align="center">
+        <img src="image_a557a4.png" alt="OPD Registration" width="400"/><br/>
+        <b>📝 OPD Registration</b><br/><i>Efficient patient records & advanced filtering.</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image_a5547c.png" alt="Scheduled Appointments" width="400"/><br/>
+        <b>📅 Appointment Scheduling</b><br/><i>Track patient consultations & doctor availability.</i>
+      </td>
+      <td align="center">
+        <img src="image_a5541b.png" alt="IPD Wards" width="400"/><br/>
+        <b>🛏️ IPD / Ward Management</b><br/><i>Manage admissions, discharges, and beds.</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image_a554f6.jpg" alt="Pharmacy Management" width="400"/><br/>
+        <b>💊 Pharmacy & Inventory</b><br/><i>Monitor stock levels, pricing, and batches.</i>
+      </td>
+      <td align="center">
+        <img src="image_a554b9.png" alt="Generated Bills" width="400"/><br/>
+        <b>💰 Billing & Invoices</b><br/><i>Generate comprehensive bills and track payments.</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## 🛠️ Technology Stack
 
-* **Language:** Python 3.x
-* **GUI Framework:** PySide6 (Qt for Python)
-* **Database:** SQLite3
-* **Visualization:** Matplotlib (for Dashboard graphs)
-* **Data Handling:** Pandas (for CSV Export functionality)
+| Technology | Purpose |
+| :--- | :--- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Core Application Logic |
+| ![Qt](https://img.shields.io/badge/Qt_PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white) | Modern GUI Framework |
+| ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) | Lightweight Relational Database |
+| ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white) | Dashboard Visualizations & Graphs |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | Data Handling & CSV Export |
 
 ---
 
-## 📦 How to Run
+## 🚀 Getting Started
 
-1.  **Clone the repository** (or download source code).
-2.  **Install dependencies:**
-    ```bash
-    pip install PySide6 matplotlib pandas
-    ```
-3.  **Run the application:**
-    ```bash
-    python main.py
-    ```
+Follow these instructions to set up the project locally on your machine.
+
+### Prerequisites
+
+Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/).
+
+### Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/medicare-system.git
+   cd medicare-system
+   ```
+
+2. **(Optional) Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install the required dependencies:**
+   ```bash
+   pip install PySide6 matplotlib pandas
+   ```
+
+4. **Run the application:**
+   ```bash
+   python main.py
+   ```
 
 ---
 
-## 👤 Author
-**Muhammad Rashid Shafique**
-*Software Developer | Python Enthusiast*
+## 👨‍💻 Contact & Author
+
+<div align="center">
+  <b>Muhammad Rashid Shafique</b> <br>
+  <i>Software Developer | Python Enthusiast</i>
+  <br><br>
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+</div>
 
 ---
-*© 2025 Medicare System. All Rights Reserved.*
+
+<div align="center">
+  <i>© 2025 Medicare System. All Rights Reserved.</i><br>
+  Designed with ❤️ for healthcare professionals.
+</div>
